@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612+Mono&display=swap');
+
+body{
+	overflow-x: hidden;
+	background-image: url("imagens/bgindex.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    background-color: #1c3c62;
+}
+
+*{
+   padding: 0px;
+   margin: 0px;
+   border: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+div#container{
+	margin-top: 11%;
+	width: 100%;
+	height: 100%;
+}
+
+div#container fieldset#mid{
+	position: relative;
+	border: 2px groove #ffffff; 
+	text-align: center;
+	color: white;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+div#container fieldset#mid legend{
+	text-align: center;
+	color: #ed3a71;
+	font-family: 'Rock Salt', cursive;
+	font-size:  32pt;
+}
+
+div#container fieldset#mid p{
+	margin-bottom: 8%;
+	font-size: 20pt;
+	font-family: monospace;
+}
+
+div#container fieldset#mid p input{
+	margin-top: 30px;
+	height: 45px;
+	margin-bottom:30px;
+	background-color: white;
+	border-radius:10px;
+	width:200px;
+	color: black;
+	font-family: monospace;
+}

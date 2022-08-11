@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Khand&display=swap');
+
+
+
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+	
+hr{
+	border-top: 1px groove black;
+    border-bottom: 1px groove black;
+    color: #fff;
+    background-color: #fff;
+    height: 4px;
+    margin-top: 6%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+header {
+    background: #1c3c62;
+    height: 10vh;
+    text-decoration-color: #fff;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+img.logo {
+    float: left;
+    padding: 3px 2px 2px 50px;
+    width: 80px;
+    margin-top: 0.5vh;
+    height: 80px;
+    transition: transform 250ms;
+}
+
+img.logo:hover {
+    transform: translateY(-10px);
+}
+
+div#interface header#tittle{
+	font-family: 'Rock Salt', cursive; 
+	font-size:	15pt;
+	position: relative;
+	background-color: #1C1C1C;
+	width: 100%;
+
+}
+
+nav {
+    float: right;
+    padding-right: 3em
+}
+
+nav ul {
+    margin: 3px 2px 2px 50px;
+    padding: 0;
+    padding-top: 1.5vh;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #ed3a71;
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+
+.centralizer{
+	text-align: center;
+}
+
+.div-out {
+    height: 100vh;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.div-inside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+
+
+/*KEYFRAMES*/
+
+@keyframes surgir{
+	from{
+		margin-top: 100%;
+	}
+	to {
+		margin-top: 0%;
+  }	
+}
