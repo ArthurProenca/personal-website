@@ -10,7 +10,7 @@ container.header-container {
     position: relative;
     font-size: 14vw;
     color: #ffffff;
-    -webkit-text-stroke: 0.3vw #1c3c62;
+    -webkit-text-stroke: 0.3vw #;
     text-transform: lowercase;
     font-family: 'Quicksand', sans-serif;
 }
@@ -43,6 +43,7 @@ div#mid legend {
     font-family: 'Antic Slab', serif;
     text-align: center;
     font-size: 22pt;
+    color: #1c3c62;
 }
 
 div#right {
@@ -60,8 +61,7 @@ div#left {
 
 p#Syd {
     font-family: 'Quicksand', sans-serif;
-
-    color: #A90D0F;
+    color: #ed3a71;
     font-size: 16pt;
 }
 
